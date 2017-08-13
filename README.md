@@ -26,6 +26,6 @@ Script inspirado en la serie de televisión Mr. Robot.
 
 Este es un programa hecho con python que crea un diccionario apartir de la información recopilada con ingenieria social. Por ejemplo, si la victima tiene como contraseña el nombre de su mascota mas su fecha de nacimiento podemos poner como elemento en el programa "Fluffy" y "10051995" ó "1051995" ó "10595".
 
-Este programa crea una lista con las pisibilidades con los elementos que creas adecuados y despues las permuta en diferete orden. Cada elemento es tomado en un sólo bloque, es decir que no toma cada numero/letra de manera individual (a menos que tu lo consideres).
+Este programa crea una lista con los elementos que creas adecuados y despues las permuta en diferete orden. Cada elemento es tomado en un sólo bloque, es decir que no toma cada numero/letra de manera individual (a menos que tu lo consideres).
 
 NOTA: Este programa permuta con un minimo de 1 elemento y un maximo de 4 elementos, si quieres agregar mas elementos para permutar puedes editar el codigo en la linea 44.
