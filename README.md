@@ -4,7 +4,7 @@
 
 Writed on Python 3.5
 
-To run program type: python3 eliotsScript.py
+To run the program type: python3 eliotsScript.py
 
 -------------------------------------------------------------------------------------------------------------------------------
  ****English****
