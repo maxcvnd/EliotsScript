@@ -25,7 +25,7 @@ def mklist():
 	print (' ----------------------------------------------------------------------------------')
 	print (' Tip: Add words with capital letters, example: "Dylan" & "dylan"         ')
 	print (' ----------------------------------------------------------------------------------')
-	print (' Tip: Be sure first about how many elemets you will put                  ')
+	print (' Tip: Be sure first about how many elements you will put                  ')
 	print (' ----------------------------------------------------------------------------------')
 	print ('                                                                                   ')
 	global lst
