@@ -1,12 +1,13 @@
-**Eliot'sScript**
+***Eliot'sScript***
 -------------------------------------------------------------------------------------------------------------------------------
  by: Max_Cano
+
 Writed on Python 3.5
 
 To run program type: python3 eliotsScript.py
 
 -------------------------------------------------------------------------------------------------------------------------------
- *****English*****
+ ****English****
 -------------------------------------------------------------------------------------------------------------------------------
 
 Script inspired by the the tv series Mr. Robot.
@@ -18,7 +19,7 @@ This program create a list of posibilities with the elements that you considere 
 NOTE: This program permute with a minimun of 1 element and a maximum of 4 elements, if you want addmore elements to permute you can change de code on the line 44.
 
 --------------------------------------------------------------------------------------------------------------------------------
- *****ESPAÑOL*****
+ ****ESPAÑOL****
 --------------------------------------------------------------------------------------------------------------------------------
 
 Script inspirado en la serie de televisión Mr. Robot.
