@@ -10,7 +10,7 @@ To run the program type: python3 eliotsScript.py
  ****English****
 -------------------------------------------------------------------------------------------------------------------------------
 
-Script inspired by the the tv series Mr. Robot.
+Script inspired on the the tv series Mr. Robot.
 
 This is a python program that create a word list diccionary with information compiled with the help of social engineering. For example, if the target has a password whit the name of their pet and her birthday we can put like element "Fluffy" and "10051995" or "10051995" or "100595".
 
