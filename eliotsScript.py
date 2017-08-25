@@ -30,15 +30,21 @@ def mklist():
 	print ('                                                                                   ')
 	global lst
 	lst = []
-	number = int(input("How many elements you will put? : "))
+	while True:
+		try:
+			number = int((input("How many elements you will put? : ")))
+			break
+		except ValueError:
+			print("\n Please enter a number!!")
+			mklist()
 	for i in range (number):
-		x=(input("Enter posibility : "))
+		x = (input("Enter posibility : "))
 		lst.append((x))
 	return(lst)
 
 
 def Permutation():
-	print ("Waint...")
+	print ("Wait...")
 	global perm
 	permutations(lst)
 	perm = list(permutations(lst, 1)), list(permutations(lst, 2)), list(permutations(lst, 3)), list(permutations(lst, 4))
