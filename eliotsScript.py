@@ -18,30 +18,34 @@ def banner():
 def clear():
 	os.system("clear")
 
-
-def mklist():
+def tips():
 	print (' ----------------------------------------------------------------------------------')
 	print (' Tip: Add simbols like "_" "-" "." if you think that will be a posibility')
 	print (' ----------------------------------------------------------------------------------')
 	print (' Tip: Add words with capital letters, example: "Dylan" & "dylan"         ')
 	print (' ----------------------------------------------------------------------------------')
-	print (' Tip: Be sure first about how many elements you will put                  ')
+	print (' Tip: Be sure first about how many elemts you will put                   ')
 	print (' ----------------------------------------------------------------------------------')
 	print ('                                                                                   ')
+
+
+def mklist():
 	global lst
+	global output
 	lst = []
 	while True:
 		try:
+			output = input("Name of the file with extention : ")
 			number = int((input("How many elements you will put? : ")))
 			break
 		except ValueError:
-			print("\n Please enter a number!!")
+			print("\n ERROR : Please enter a number!!")
 			mklist()
 	for i in range (number):
 		x = (input("Enter posibility : "))
 		lst.append((x))
 	return(lst)
-
+	return(output)
 
 def Permutation():
 	print ("Wait...")
@@ -54,7 +58,7 @@ def Permutation():
 
 def mkfile():
 	repr(perm)
-	f = open("Output.txt", "w")
+	f = open(output, "w")
 	f.write (repr(perm))
 	f.close()
 
@@ -66,6 +70,24 @@ def ask():
 		start2()
 	else:
 		start()
+def editFile():
+	file = open(output, "r")
+	string = file.read().replace('\n','').replace('-', ' ')
+	jump = ")"
+	symbols = "][(,' "
+	for char in jump:
+		string = string.replace(char,"\n")
+	for char in symbols:
+		string = string.replace(char,"")
+	#print (string)
+	def changeFile():
+		f = open(output, "w")
+		f.write (string)
+		f.close()
+
+	changeFile()
+	print("Proces Finished!!")
+	print('Check the file "' + output + '"')
 
 def start():
 	clear()
@@ -78,7 +100,7 @@ def start2():
 	mkfile()
 	clear()
 	banner()
-	os.system("python3 editfile.py")
+	editFile()
 	
 
 start()
