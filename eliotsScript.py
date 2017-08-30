@@ -92,6 +92,7 @@ def editFile():
 def start():
 	clear()
 	banner()
+	tips()
 	mklist()
 	ask()
 
